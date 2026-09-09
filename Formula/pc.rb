@@ -1,14 +1,14 @@
 class Pc < Formula
   desc "Command Line Interface for PingCode Open API"
   homepage "https://github.com/shaunxu/pingcode-cli-next"
-  version "1.1.0"
+  version "1.2.1"
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/shaunxu/pingcode-cli-next/releases/download/v1.1.0/pc-aarch64-apple-darwin.tar.xz"
-    sha256 "66152c3d6596f13f84f6232ed61b330d70a97a45a81e7930c035e090c0ee472d"
+    url "https://github.com/shaunxu/pingcode-cli-next/releases/download/v1.2.1/pc-aarch64-apple-darwin.tar.xz"
+    sha256 "52f937c18c49693939a3b432c0b8888ac0b3ec21046dfcd07fc46b91cfea5fcd"
   end
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/shaunxu/pingcode-cli-next/releases/download/v1.1.0/pc-x86_64-unknown-linux-gnu.tar.xz"
-    sha256 "d69e10053c704267ac54d289ea172d08cc80d032a568dcf735d00ec607b39bf8"
+    url "https://github.com/shaunxu/pingcode-cli-next/releases/download/v1.2.1/pc-x86_64-unknown-linux-gnu.tar.xz"
+    sha256 "843d50637086d13e55cc9d03d5cec853ee60dfb6b05ef9c227e286f472a578c1"
   end
   license "MIT"
 
